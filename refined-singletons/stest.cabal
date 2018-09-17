@@ -1,0 +1,50 @@
+name:                stest
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/githubuser/stest#readme
+license:             BSD3
+author:              Author name here
+maintainer:          example@example.com
+copyright:           2018 Author name here
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable stest
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5, refined, singletons
+  default-extensions:
+      FlexibleContexts
+    , FlexibleInstances
+    , OverloadedStrings
+    , DataKinds
+    , TypeOperators
+    , DeriveGeneric
+    , TemplateHaskell
+    , QuasiQuotes
+    , TypeFamilies
+    , MultiParamTypeClasses
+    , GeneralizedNewtypeDeriving
+    , GADTs
+    , PartialTypeSignatures
+    , UndecidableInstances
+    , ScopedTypeVariables
+    , CPP
+    , DuplicateRecordFields
+    , FunctionalDependencies
+    , PolyKinds
+    , TypeInType
+    , DefaultSignatures
+    , EmptyCase
+    , ExistentialQuantification
+    , InstanceSigs
+    , KindSignatures
+    , RankNTypes
+    , TypeOperators
+    , ConstraintKinds
+    , TypeSynonymInstances
+
+
